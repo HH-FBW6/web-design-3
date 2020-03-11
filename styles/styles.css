@@ -1,0 +1,68 @@
+body {
+	font-size: 28px;
+}
+
+.header {
+	height: 100vh;
+}
+
+.header .hero-image {
+	height: 80%;
+	color: white;
+	background:  url('/images/header-background.png') no-repeat center center/cover;
+}
+
+.header .flex-hero {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+}
+
+.header .flex-hero .flex-hero-text {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header .header-text {
+	text-align: center;
+}
+
+.header .login {
+	font-size: 70%;
+	text-align: right;
+}
+
+.main .info {
+	justify-content: space-between;
+	display: flex;
+}
+
+.main .products {
+	width: 60%;
+}
+
+.main .news {
+	width: 38%;
+}
+
+.main .product-images {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main .product-images .image {
+	height: 120px;
+	flex-grow: 1;
+	background-color: aquamarine;
+}
+
+.main .news p {
+	font-size: 60%;
+}
+
+.main .news .date {
+	font-size: 40%;
+}
